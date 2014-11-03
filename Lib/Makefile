@@ -3,9 +3,9 @@
 
 default: all
 
-include ../../SuiteSparse_config/SuiteSparse_config.mk
+include ../SuiteSparse_config/SuiteSparse_config.mk
 
-I = -I../../SuiteSparse_config -I../Include
+I = -I../SuiteSparse_config -I../Include
 
 all: libcxsparse.a
 

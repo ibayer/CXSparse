@@ -6,7 +6,7 @@ VERSION = 3.1.3
 
 default: C
 
-include ../SuiteSparse_config/SuiteSparse_config.mk
+include SuiteSparse_config/SuiteSparse_config.mk
 
 C:
 	( cd Lib ; $(MAKE) )
